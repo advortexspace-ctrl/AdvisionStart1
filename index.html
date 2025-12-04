@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AdVision Start - Marketing agency for startups and small businesses">
+    <title>AdVision Start | Marketing for Startups</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- Floating Contact Buttons -->
+    <div class="floating-contact">
+        <a href="https://wa.me/447521359062" class="contact-btn whatsapp" target="_blank" aria-label="Chat on WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+            <span class="contact-label">Chat on WhatsApp</span>
+        </a>
+        <a href="https://t.me/Credibility_Support" class="contact-btn telegram" target="_blank" aria-label="Message on Telegram">
+            <i class="fab fa-telegram"></i>
+            <span class="contact-label">Message on Telegram</span>
+        </a>
+    </div>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <i class="fas fa-bullseye"></i>Ad<span>Vision</span> Start
+            </a>
+            
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <nav aria-label="Main navigation">
+                <ul id="mainMenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#audit">Free Audit</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#contact" class="btn btn-primary">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container hero-container">
+            <div class="hero-content fade-in">
+                <h1>Marketing Made Simple for Startups</h1>
+                <p>We help early-stage businesses build their brand and acquire customers without breaking the bank. Professional marketing at startup-friendly prices.</p>
+                <div class="hero-btns">
+                    <a href="#audit" class="btn btn-primary">Get Free Audit</a>
+                    <a href="#services" class="btn btn-secondary">View Services</a>
+                    <a href="blog.html" class="btn btn-accent">Visit Blog</a>
+                </div>
+                
+                <div class="hero-stats">
+                    <div class="hero-stat">
+                        <div class="hero-stat-number">+68%</div>
+                        <div class="hero-stat-text">Average Growth Rate</div>
+                    </div>
+                    <div class="hero-stat">
+                        <div class="hero-stat-number">From $299</div>
+                        <div class="hero-stat-text">Monthly Plans</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-image fade-in">
+                <div class="hero-visual">
+                    <h3>Startup-Friendly Marketing</h3>
+                    <p>Specialized in helping early-stage businesses establish market presence</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Free Audit Section -->
+    <section class="free-audit" id="audit">
+        <div class="container audit-container">
+            <div class="audit-content fade-in">
+                <h2>Free Marketing Audit</h2>
+                <p>Get a comprehensive analysis of your current marketing and discover growth opportunities.</p>
+                
+                <div class="audit-steps">
+                    <div class="audit-step">
+                        <div class="step-number">1</div>
+                        <div>
+                            <h4>Submit Details</h4>
+                            <p>Tell us about your business</p>
+                        </div>
+                    </div>
+                    
+                    <div class="audit-step">
+                        <div class="step-number">2</div>
+                        <div>
+                            <h4>Receive Analysis</h4>
+                            <p>We analyze your marketing</p>
+                        </div>
+                    </div>
+                    
+                    <div class="audit-step">
+                        <div class="step-number">3</div>
+                        <div>
+                            <h4>Get Actionable Report</h4>
+                            <p>Detailed recommendations</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="audit-features">
+                    <p><strong>What's included:</strong></p>
+                    <ul>
+                        <li>Website SEO analysis</li>
+                        <li>Social media evaluation</li>
+                        <li>Competitor analysis</li>
+                        <li>3 actionable recommendations</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="audit-form fade-in">
+                <h3>Request Free Audit</h3>
+                <form id="auditForm">
+                    <div class="form-group">
+                        <label for="audit-name">Your Name</label>
+                        <input type="text" id="audit-name" class="form-control" placeholder="John Smith" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="audit-email">Email Address</label>
+                        <input type="email" id="audit-email" class="form-control" placeholder="john@yourbusiness.com" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="audit-business">Business Name</label>
+                        <input type="text" id="audit-business" class="form-control" placeholder="Your Startup" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="audit-challenge">Main Challenge</label>
+                        <select id="audit-challenge" class="form-control">
+                            <option value="">Select challenge</option>
+                            <option value="awareness">Brand awareness</option>
+                            <option value="traffic">Website traffic</option>
+                            <option value="conversions">Converting customers</option>
+                            <option value="social">Social media presence</option>
+                        </select>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">Get Free Audit</button>
+                    <p class="form-note">No credit card required. Results in 48 hours.</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container services-container">
+            <h2 class="fade-in">Startup-Friendly Services</h2>
+            <p class="section-subtitle fade-in">Affordable marketing solutions for early-stage businesses</p>
+            
+            <div class="services-grid">
+                <div class="service-card fade-in">
+                    <div class="service-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Startup Launch Package</h3>
+                    <p>Everything to successfully launch your startup</p>
+                    <ul class="service-features">
+                        <li>Brand identity development</li>
+                        <li>Basic website setup</li>
+                        <li>Social media setup (2 platforms)</li>
+                        <li>Launch strategy</li>
+                    </ul>
+                    <div class="service-price">From $999 <span>/one-time</span></div>
+                    <a href="https://wa.me/447521359062" class="btn btn-primary" target="_blank">Get Started</a>
+                </div>
+                
+                <div class="service-card fade-in">
+                    <div class="service-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>Basic SEO & Content</h3>
+                    <p>Essential SEO optimization and content creation</p>
+                    <ul class="service-features">
+                        <li>Website SEO audit</li>
+                        <li>Basic on-page optimization</li>
+                        <li>4 blog posts/month</li>
+                        <li>Monthly performance report</li>
+                    </ul>
+                    <div class="service-price">From $499 <span>/month</span></div>
+                    <a href="https://wa.me/447521359062" class="btn btn-primary" target="_blank">Get Started</a>
+                </div>
+                
+                <div class="service-card fade-in">
+                    <div class="service-icon">
+                        <i class="fas fa-ad"></i>
+                    </div>
+                    <h3>Starter PPC Management</h3>
+                    <p>Managed advertising for limited budgets</p>
+                    <ul class="service-features">
+                        <li>Campaign setup on 1 platform</li>
+                        <li>Up to $500 ad spend management</li>
+                        <li>Basic conversion tracking</li>
+                        <li>Weekly optimization</li>
+                    </ul>
+                    <div class="service-price">From $299 <span>/month + ad spend</span></div>
+                    <a href="https://wa.me/447521359062" class="btn btn-primary" target="_blank">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing" id="pricing">
+        <div class="container pricing-container">
+            <h2 class="fade-in">Simple, Transparent Pricing</h2>
+            <p class="section-subtitle fade-in">Packages designed for startups. No hidden fees.</p>
+            
+            <div class="pricing-grid fade-in">
+                <div class="pricing-card">
+                    <div class="pricing-title">Essentials</div>
+                    <div class="pricing-price">$499<span>/month</span></div>
+                    <ul class="pricing-features">
+                        <li>Basic SEO optimization</li>
+                        <li>4 blog posts/month</li>
+                        <li>Social media (2 platforms)</li>
+                        <li>Monthly report</li>
+                        <li>Email support</li>
+                        <li>Weekly strategy call</li>
+                    </ul>
+                    <a href="https://wa.me/447521359062" class="btn btn-primary" target="_blank">Choose Plan</a>
+                </div>
+                
+                <div class="pricing-card popular">
+                    <div class="pricing-title">Growth</div>
+                    <div class="pricing-price">$799<span>/month</span></div>
+                    <ul class="pricing-features">
+                        <li>Advanced SEO strategy</li>
+                        <li>8 blog posts/month</li>
+                        <li>Social media (3 platforms)</li>
+                        <li>Basic PPC management</li>
+                        <li>Priority support</li>
+                        <li>Weekly strategy calls</li>
+                    </ul>
+                    <a href="https://wa.me/447521359062" class="btn btn-primary" target="_blank">Choose Plan</a>
+                </div>
+                
+                <div class="pricing-card">
+                    <div class="pricing-title">Scale</div>
+                    <div class="pricing-price">$1,299<span>/month</span></div>
+                    <ul class="pricing-features">
+                        <li>Full SEO & content strategy</li>
+                        <li>12 blog posts/month</li>
+                        <li>Social media (4 platforms)</li>
+                        <li>Advanced PPC management</li>
+                        <li>24/7 priority support</li>
+                        <li>Dedicated account manager</li>
+                    </ul>
+                    <a href="https://wa.me/447521359062" class="btn btn-primary" target="_blank">Choose Plan</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Preview -->
+    <section class="blog-preview" id="blog-preview">
+        <div class="container">
+            <h2 class="fade-in">Marketing Resources</h2>
+            <p class="section-subtitle fade-in">Practical advice for startups</p>
+            
+            <div class="blog-grid fade-in">
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-category">Getting Started</span>
+                            <span>May 20, 2023</span>
+                        </div>
+                        <h3>Marketing on a Bootstrap Budget</h3>
+                        <p>Learn to create effective campaigns with limited resources</p>
+                        <a href="blog.html#article1" class="btn btn-secondary">Read More</a>
+                    </div>
+                </article>
+                
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <i class="fas fa-hashtag"></i>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-category">Social Media</span>
+                            <span>May 10, 2023</span>
+                        </div>
+                        <h3>Social Media for Beginners</h3>
+                        <p>Step-by-step guide to building your brand on social media</p>
+                        <a href="blog.html#article2" class="btn btn-secondary">Read More</a>
+                    </div>
+                </article>
+                
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <i class="fas fa-search-dollar"></i>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-category">SEO Basics</span>
+                            <span>April 28, 2023</span>
+                        </div>
+                        <h3>SEO for Startups: First Steps</h3>
+                        <p>Foundational elements for maximum impact with minimal investment</p>
+                        <a href="blog.html#article3" class="btn btn-secondary">Read More</a>
+                    </div>
+                </article>
+            </div>
+            
+            <div class="text-center fade-in">
+                <a href="blog.html" class="btn btn-primary">Visit Full Blog</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq" id="faq">
+        <div class="container faq-container">
+            <h2 class="fade-in">FAQ for Startups</h2>
+            <p class="section-subtitle fade-in">Common questions from early-stage businesses</p>
+            
+            <div class="faq-list fade-in">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>We're bootstrapped. Can we afford professional marketing?</span>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Absolutely! We specialize in working with startups on limited budgets. Our packages start at $299/month, and we offer pay-as-you-grow options.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>How quickly can we expect to see results?</span>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>PPC campaigns show results in 1-2 weeks. SEO takes 3-4 months. Social media growth is visible within the first month.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Do we need to sign a long-term contract?</span>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>No long-term contracts. We work month-to-month with a 30-day notice period.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>What if we have zero marketing experience?</span>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>That's fine! We provide education along with implementation. Many clients start with no marketing background.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <h2 class="fade-in">Ready to Grow Your Startup?</h2>
+            <p class="section-subtitle fade-in">Contact us for a free consultation</p>
+            
+            <div class="contact-options fade-in">
+                <a href="https://wa.me/447521359062" class="btn btn-primary" target="_blank">
+                    <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+                </a>
+                <a href="https://t.me/Credibility_Support" class="btn btn-secondary" target="_blank">
+                    <i class="fab fa-telegram"></i> Message on Telegram
+                </a>
+                <a href="#audit" class="btn btn-accent">
+                    <i class="fas fa-chart-line"></i> Get Free Audit
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h3>AdVision Start</h3>
+                    <p>Marketing made simple for startups and small businesses.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#audit">Free Audit</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="#services">Startup Launch</a></li>
+                        <li><a href="#services">SEO & Content</a></li>
+                        <li><a href="#services">PPC Management</a></li>
+                        <li><a href="#services">Social Media</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Contact</h3>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-phone"></i> +44 7521 359062</li>
+                        <li><i class="fab fa-whatsapp"></i> WhatsApp</li>
+                        <li><i class="fab fa-telegram"></i> Telegram</li>
+                        <li><i class="fas fa-clock"></i> Mon-Fri: 9AM-6PM GMT</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2023 AdVision Start. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
